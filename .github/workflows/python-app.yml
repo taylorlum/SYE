@@ -1,5 +1,4 @@
-name: Scrape and Deploy
-
+name: Python Webscraping Workflow
 on:
   # Trigger the workflow on a cron schedule (every day at midnight)
   schedule:
