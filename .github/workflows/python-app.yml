@@ -2,7 +2,7 @@ name: Python Webscraping Workflow
 
 on:
   schedule:
-    - cron: '10 20 * * *'  # This runs the job every day at midnight (UTC)
+    - cron: '14 1 * * *'  # This runs the job every day at midnight (UTC)
   # Optional: Allows you to trigger manually
   workflow_dispatch:
 
