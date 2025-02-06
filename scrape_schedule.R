@@ -1,6 +1,6 @@
 # Load required libraries
-install.packages("rvest", repos = "https://cloud.r-project.org")
-install.packages("tidyverse", repos = "https://cloud.r-project.org")
+# install.packages("rvest", repos = "https://cloud.r-project.org")
+# install.packages("tidyverse", repos = "https://cloud.r-project.org")
 
 library(rvest)
 library(tidyverse)
