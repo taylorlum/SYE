@@ -33,11 +33,11 @@ jobs:
     - name: Run scrape_data.py
       run: python scrape_data.py
 
-    # Commit the output file to the repository (optional)
+    # Commit and push scraped links
     - name: Commit and push scraped links
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
         git add scraped_links.txt
         git commit -m "Add scraped links"
-        git push
+        git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git
