@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # URL of the website to scrape
-url = 'https://saintsathletics.com/sports/womens-ice-hockey'  # Replace with the URL you want to scrape
+url = 'https://shop.lululemon.com/'  # Replace with the URL you want to scrape
 
 # Send a GET request to the URL
 response = requests.get(url)
