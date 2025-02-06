@@ -20,7 +20,8 @@ jobs:
 
       - name: Install R packages
         run: |
-          Rscript -e 'install.packages(c("rvest", "dplyr"), repos="https://cloud.r-project.org", dependencies = TRUE)'
+          Rscript -e 'install.packages("rvest", repos="https://cloud.r-project.org", dependencies=TRUE)'
+          Rscript -e 'install.packages("dplyr", repos="https://cloud.r-project.org", dependencies=TRUE)'
 
       - name: Run R script
         run: Rscript scrape_schedule.R
