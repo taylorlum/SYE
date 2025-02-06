@@ -2,7 +2,7 @@ name: Scrape and Save Schedule
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Run every 5 minutes
+    - cron: '0 12 * * *' 
   workflow_dispatch:        # Allows manual execution
 
 jobs:
