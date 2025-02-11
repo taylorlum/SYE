@@ -31,7 +31,7 @@ def clean_sched_function(df):
     
     df = df[(df['Visitor'] != df['Visitor_Score']) & (df['Division'] != 'Exhibition')]
     df = df.drop(columns=['Date_string'])
-    df['OT'] = df['OT'].apply(lambda x: 0 if x == '' else 1)
+    #df['OT'] = df['OT'].apply(lambda x: 0 if x == '' else 1)
     
     return df[['Date', 'Visitor', 'Visitor_Score', 'Home', 'Home_Score', 'OT', 'Division']]
 
