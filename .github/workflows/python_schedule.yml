@@ -21,7 +21,7 @@ jobs:
         run: pip install pandas beautifulsoup4 requests lxml
       
       - name: Run scraping script
-        run: python scrape_hockey_schedule.py
+        run: python python_scrape_schedule.py
       
       - name: Commit and push changes
         run: |
