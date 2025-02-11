@@ -19,7 +19,8 @@ def scrape_results_function(date):
 def clean_sched_function(df):
     df = df.iloc[:, [0, 1, 3, 4, 5]]  # Select columns
     df.columns = ['Visitor', 'Visitor_Score', 'Home', 'Home_Score', 'OT']
-    
+
+    df = df[df['Home'].notna() & (df['Home'].str.strip() != '')] 
     df['Date_string'] = df['Visitor'].where(df['Visitor'].str.match(r'^[A-Za-z]+, [A-Za-z]+ \d{1,2}, \d{4}$'))
     df['Date_string'] = df['Date_string'].fillna(method='ffill')
     df = df.dropna(subset=['Date_string'])
