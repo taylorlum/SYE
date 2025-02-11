@@ -1,0 +1,32 @@
+name: Scrape and Save Hockey Schedule
+
+on:
+  schedule:
+    - cron: '0 12 * * 1'  # Runs every Monday at 12:00 UTC
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      
+      - name: Install dependencies
+        run: pip install pandas beautifulsoup4 requests lxml
+      
+      - name: Run scraping script
+        run: python scrape_hockey_schedule.py
+      
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add schedule_2425.csv
+          git commit -m 'Updated schedule data' || echo "No changes to commit"
+          git push
