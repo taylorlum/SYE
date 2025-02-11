@@ -20,7 +20,6 @@ def clean_sched_function(df):
     df = df.iloc[:, [0, 1, 3, 4, 5]]  # Select columns
     df.columns = ['Visitor', 'Visitor_Score', 'Home', 'Home_Score', 'OT']
     
-    df = df.dropna(subset=['Visitor', 'Home'])
     df['Date_string'] = df['Visitor'].where(df['Visitor'].str.match(r'^[A-Za-z]+, [A-Za-z]+ \d{1,2}, \d{4}$'))
     df['Date_string'] = df['Date_string'].fillna(method='ffill')
     df = df.dropna(subset=['Date_string'])
@@ -29,9 +28,9 @@ def clean_sched_function(df):
     df['Division'] = df['Visitor'].where(df['Visitor'] == df['Visitor_Score'])
     df['Division'] = df['Division'].fillna(method='ffill')
     
-    df = df[(df['Visitor'] != df['Visitor_Score']) & (~df['Division'].notna())]
+    df = df[(df['Visitor'] != df['Visitor_Score']) & (df['Division'] != 'Exhibition')]
     df = df.drop(columns=['Date_string'])
-    df['OT'] = df['OT'].apply(lambda x: 1 if isinstance(x, str) and x.strip() else 0)
+    df['OT'] = df['OT'].apply(lambda x: 0 if x == '' else 1)
     
     return df[['Date', 'Visitor', 'Visitor_Score', 'Home', 'Home_Score', 'OT', 'Division']]
 
