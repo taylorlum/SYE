@@ -662,26 +662,26 @@ Date,Visitor,Visitor_Score,Home,Home_Score,OT,Division
 2025-02-08,Holy Cross,0,Connecticut,1,0,Hockey East
 2025-02-09,Minnesota,1,Wisconsin,6,0,WCHA
 2025-02-13,Post,3,Long Island,5,0,NEWHA
-2025-02-14,Long Island,,Post,,0,NEWHA
-2025-02-14,Sacred Heart,,Franklin Pierce,,0,NEWHA
-2025-02-14,Stonehill,,Saint Anselm,,0,NEWHA
-2025-02-14,Saint Michael's,,Assumption,,0,NEWHA
-2025-02-14,Maine,,Merrimack,,0,Hockey East
-2025-02-14,Northeastern,,Boston College,,0,Hockey East
-2025-02-14,Providence,,Connecticut,,0,Hockey East
-2025-02-14,Boston University,,New Hampshire,,0,Hockey East
-2025-02-14,Penn State,,RIT,,0,AHA
-2025-02-14,Syracuse,,Mercyhurst,,0,AHA
-2025-02-14,Lindenwood,,Robert Morris,,0,AHA
-2025-02-14,Minnesota State,,Minnesota-Duluth,,0,WCHA
-2025-02-14,St. Cloud State,,Minnesota,,0,WCHA
-2025-02-14,Bemidji State,,St. Thomas,,0,WCHA
-2025-02-14,Yale,,Colgate,,0,ECAC
-2025-02-14,Brown,,Cornell,,0,ECAC
-2025-02-14,St. Lawrence,,Dartmouth,,0,ECAC
-2025-02-14,Clarkson,,Harvard,,0,ECAC
-2025-02-14,Union,,Princeton,,0,ECAC
-2025-02-14,Rensselaer,,Quinnipiac,,0,ECAC
+2025-02-14,Long Island,2,Post,3,0,NEWHA
+2025-02-14,Sacred Heart,2,Franklin Pierce,4,0,NEWHA
+2025-02-14,Stonehill,2,Saint Anselm,2,1,NEWHA
+2025-02-14,Saint Michael's,1,Assumption,3,0,NEWHA
+2025-02-14,Maine,1,Merrimack,1,1,Hockey East
+2025-02-14,Northeastern,5,Boston College,4,1,Hockey East
+2025-02-14,Providence,3,Connecticut,1,0,Hockey East
+2025-02-14,Boston University,2,New Hampshire,1,0,Hockey East
+2025-02-14,Penn State,4,RIT,1,0,AHA
+2025-02-14,Syracuse,3,Mercyhurst,5,0,AHA
+2025-02-14,Lindenwood,5,Robert Morris,1,0,AHA
+2025-02-14,Minnesota State,2,Minnesota-Duluth,8,0,WCHA
+2025-02-14,St. Cloud State,4,Minnesota,3,0,WCHA
+2025-02-14,Bemidji State,5,St. Thomas,0,0,WCHA
+2025-02-14,Yale,0,Colgate,3,0,ECAC
+2025-02-14,Brown,2,Cornell,6,0,ECAC
+2025-02-14,St. Lawrence,0,Dartmouth,2,0,ECAC
+2025-02-14,Clarkson,4,Harvard,0,0,ECAC
+2025-02-14,Union,1,Princeton,2,1,ECAC
+2025-02-14,Rensselaer,1,Quinnipiac,7,0,ECAC
 2025-02-15,Sacred Heart,,Franklin Pierce,,0,NEWHA
 2025-02-15,Saint Anselm,,Stonehill,,0,NEWHA
 2025-02-15,Saint Michael's,,Assumption,,0,NEWHA
@@ -721,9 +721,9 @@ Date,Visitor,Visitor_Score,Home,Home_Score,OT,Division
 2025-02-22,Franklin Pierce,,Saint Michael's,,0,NEWHA
 2025-02-22,Merrimack,,Providence,,0,Hockey East
 2025-02-22,Northeastern,,Vermont,,0,Hockey East
+2025-02-22,Connecticut,,Boston University,,0,Hockey East
 2025-02-22,Boston College,,New Hampshire,,0,Hockey East
 2025-02-22,Holy Cross,,Maine,,0,Hockey East
-2025-02-22,Connecticut,,Boston University,,0,Hockey East
 2025-02-22,Minnesota-Duluth,,Minnesota,,0,WCHA
 2025-02-22,Wisconsin,,Bemidji State,,0,WCHA
 2025-02-22,St. Cloud State,,Ohio State,,0,WCHA
