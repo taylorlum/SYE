@@ -682,25 +682,25 @@ Date,Visitor,Visitor_Score,Home,Home_Score,OT,Division
 2025-02-14,Clarkson,4,Harvard,0,0,ECAC
 2025-02-14,Union,1,Princeton,2,1,ECAC
 2025-02-14,Rensselaer,1,Quinnipiac,7,0,ECAC
-2025-02-15,Sacred Heart,,Franklin Pierce,,0,NEWHA
-2025-02-15,Saint Anselm,,Stonehill,,0,NEWHA
-2025-02-15,Saint Michael's,,Assumption,,0,NEWHA
-2025-02-15,Syracuse,,Mercyhurst,,0,AHA
-2025-02-15,Lindenwood,,Robert Morris,,0,AHA
-2025-02-15,Penn State,,RIT,,0,AHA
-2025-02-15,Maine,,Merrimack,,0,Hockey East
-2025-02-15,Connecticut,,Providence,,0,Hockey East
-2025-02-15,New Hampshire,,Boston University,,0,Hockey East
-2025-02-15,Vermont,,Holy Cross,,0,Hockey East
-2025-02-15,Minnesota State,,Minnesota-Duluth,,0,WCHA
-2025-02-15,Minnesota,,St. Cloud State,,0,WCHA
-2025-02-15,Bemidji State,,St. Thomas,,0,WCHA
-2025-02-15,Brown,,Colgate,,0,ECAC
-2025-02-15,Yale,,Cornell,,0,ECAC
-2025-02-15,Clarkson,,Dartmouth,,0,ECAC
-2025-02-15,St. Lawrence,,Harvard,,0,ECAC
-2025-02-15,Rensselaer,,Princeton,,0,ECAC
-2025-02-15,Union,,Quinnipiac,,0,ECAC
+2025-02-15,Sacred Heart,0,Franklin Pierce,2,0,NEWHA
+2025-02-15,Saint Anselm,4,Stonehill,4,1,NEWHA
+2025-02-15,Saint Michael's,1,Assumption,4,0,NEWHA
+2025-02-15,Syracuse,4,Mercyhurst,2,0,AHA
+2025-02-15,Lindenwood,6,Robert Morris,2,0,AHA
+2025-02-15,Penn State,2,RIT,1,1,AHA
+2025-02-15,Maine,3,Merrimack,0,0,Hockey East
+2025-02-15,Connecticut,2,Providence,4,0,Hockey East
+2025-02-15,New Hampshire,2,Boston University,2,1,Hockey East
+2025-02-15,Vermont,0,Holy Cross,1,0,Hockey East
+2025-02-15,Minnesota State,1,Minnesota-Duluth,4,0,WCHA
+2025-02-15,Minnesota,2,St. Cloud State,1,0,WCHA
+2025-02-15,Bemidji State,3,St. Thomas,4,0,WCHA
+2025-02-15,Brown,1,Colgate,3,0,ECAC
+2025-02-15,Yale,1,Cornell,1,1,ECAC
+2025-02-15,Clarkson,4,Dartmouth,1,0,ECAC
+2025-02-15,St. Lawrence,6,Harvard,2,0,ECAC
+2025-02-15,Rensselaer,4,Princeton,3,0,ECAC
+2025-02-15,Union,1,Quinnipiac,3,0,ECAC
 2025-02-16,Boston College,,Northeastern,,0,Hockey East
 2025-02-16,Vermont,,Holy Cross,,0,Hockey East
 2025-02-21,Northeastern,,Vermont,,0,Hockey East
@@ -718,6 +718,7 @@ Date,Visitor,Visitor_Score,Home,Home_Score,OT,Division
 2025-02-21,St. Cloud State,,Ohio State,,0,WCHA
 2025-02-22,Long Island,,Saint Anselm,,0,NEWHA
 2025-02-22,Assumption,,Stonehill,,0,NEWHA
+2025-02-22,Sacred Heart,,Post,,0,NEWHA
 2025-02-22,Franklin Pierce,,Saint Michael's,,0,NEWHA
 2025-02-22,Merrimack,,Providence,,0,Hockey East
 2025-02-22,Northeastern,,Vermont,,0,Hockey East
@@ -728,4 +729,9 @@ Date,Visitor,Visitor_Score,Home,Home_Score,OT,Division
 2025-02-22,Wisconsin,,Bemidji State,,0,WCHA
 2025-02-22,St. Cloud State,,Ohio State,,0,WCHA
 2025-02-22,Minnesota State,,St. Thomas,,0,WCHA
-2025-02-25,Sacred Heart,,Post,,0,NEWHA
+2025-02-22,Harvard,,Quinnipiac,,0,Non-Conference
+2025-02-22,Union,,Brown,,0,Non-Conference
+2025-02-22,Rensselaer,,Princeton,,0,Non-Conference
+2025-02-22,Dartmouth,,Yale,,0,Non-Conference
+2025-02-22,Robert Morris,,Syracuse,,0,Non-Conference
+2025-02-22,Lindenwood,,RIT,,0,Non-Conference
