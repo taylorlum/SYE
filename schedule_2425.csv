@@ -703,20 +703,20 @@ Date,Visitor,Visitor_Score,Home,Home_Score,OT,Division
 2025-02-15,Union,1,Quinnipiac,3,0,ECAC
 2025-02-16,Boston College,3,Northeastern,2,0,Hockey East
 2025-02-16,Vermont,1,Holy Cross,3,0,Hockey East
-2025-02-21,Northeastern,,Vermont,,0,Hockey East
-2025-02-21,Boston University,,Connecticut,,0,Hockey East
-2025-02-21,Holy Cross,,Maine,,0,Hockey East
-2025-02-21,Providence,,Merrimack,,0,Hockey East
-2025-02-21,New Hampshire,,Boston College,,0,Hockey East
-2025-02-21,Stonehill,,Assumption,,0,NEWHA
-2025-02-21,Long Island,,Saint Anselm,,0,NEWHA
-2025-02-21,Post,,Sacred Heart,,0,NEWHA
-2025-02-21,Franklin Pierce,,Saint Michael's,,0,NEWHA
-2025-02-21,Rensselaer,,Princeton,,0,Non-Conference
-2025-02-21,Wisconsin,,Bemidji State,,0,WCHA
-2025-02-21,Minnesota-Duluth,,Minnesota,,0,WCHA
-2025-02-21,St. Thomas,,Minnesota State,,0,WCHA
-2025-02-21,St. Cloud State,,Ohio State,,0,WCHA
+2025-02-21,Northeastern,2,Vermont,3,0,Hockey East
+2025-02-21,Boston University,1,Connecticut,4,0,Hockey East
+2025-02-21,Holy Cross,1,Maine,4,0,Hockey East
+2025-02-21,Providence,2,Merrimack,4,0,Hockey East
+2025-02-21,New Hampshire,0,Boston College,2,0,Hockey East
+2025-02-21,Stonehill,1,Assumption,2,0,NEWHA
+2025-02-21,Long Island,2,Saint Anselm,1,0,NEWHA
+2025-02-21,Post,1,Sacred Heart,2,0,NEWHA
+2025-02-21,Franklin Pierce,4,Saint Michael's,0,0,NEWHA
+2025-02-21,Rensselaer,2,Princeton,3,0,Non-Conference
+2025-02-21,Wisconsin,6,Bemidji State,1,0,WCHA
+2025-02-21,Minnesota-Duluth,2,Minnesota,3,0,WCHA
+2025-02-21,St. Thomas,3,Minnesota State,8,0,WCHA
+2025-02-21,St. Cloud State,3,Ohio State,5,0,WCHA
 2025-02-22,Long Island,,Saint Anselm,,0,NEWHA
 2025-02-22,Assumption,,Stonehill,,0,NEWHA
 2025-02-22,Sacred Heart,,Post,,0,NEWHA
@@ -735,3 +735,7 @@ Date,Visitor,Visitor_Score,Home,Home_Score,OT,Division
 2025-02-22,Dartmouth,,Yale,,0,Non-Conference
 2025-02-22,Robert Morris,,Syracuse,,0,Non-Conference
 2025-02-22,Lindenwood,,RIT,,0,Non-Conference
+2025-02-26,Merrimack,,New Hampshire,,0,Non-Conference
+2025-02-26,Holy Cross,,Vermont,,0,Non-Conference
+2025-03-01,Northeastern,,Providence,,0,Non-Conference
+2025-03-01,Maine,,Boston College,,0,Non-Conference
