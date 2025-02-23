@@ -717,25 +717,49 @@ Date,Visitor,Visitor_Score,Home,Home_Score,OT,Division
 2025-02-21,Minnesota-Duluth,2,Minnesota,3,0,WCHA
 2025-02-21,St. Thomas,3,Minnesota State,8,0,WCHA
 2025-02-21,St. Cloud State,3,Ohio State,5,0,WCHA
-2025-02-22,Long Island,,Saint Anselm,,0,NEWHA
-2025-02-22,Assumption,,Stonehill,,0,NEWHA
-2025-02-22,Sacred Heart,,Post,,0,NEWHA
-2025-02-22,Franklin Pierce,,Saint Michael's,,0,NEWHA
-2025-02-22,Northeastern,,Vermont,,0,Hockey East
-2025-02-22,Merrimack,,Providence,,0,Hockey East
-2025-02-22,Connecticut,,Boston University,,0,Hockey East
-2025-02-22,Boston College,,New Hampshire,,0,Hockey East
-2025-02-22,Holy Cross,,Maine,,0,Hockey East
-2025-02-22,Minnesota-Duluth,,Minnesota,,0,WCHA
-2025-02-22,Wisconsin,,Bemidji State,,0,WCHA
-2025-02-22,St. Cloud State,,Ohio State,,0,WCHA
-2025-02-22,Minnesota State,,St. Thomas,,0,WCHA
-2025-02-22,Harvard,,Quinnipiac,,0,Non-Conference
-2025-02-22,Union,,Brown,,0,Non-Conference
-2025-02-22,Dartmouth,,Yale,,0,Non-Conference
-2025-02-22,Robert Morris,,Syracuse,,0,Non-Conference
-2025-02-22,Lindenwood,,RIT,,0,Non-Conference
-2025-02-26,Merrimack,,New Hampshire,,0,Non-Conference
+2025-02-22,Long Island,2,Saint Anselm,2,1,NEWHA
+2025-02-22,Assumption,0,Stonehill,1,0,NEWHA
+2025-02-22,Sacred Heart,0,Post,1,0,NEWHA
+2025-02-22,Franklin Pierce,4,Saint Michael's,0,0,NEWHA
+2025-02-22,Northeastern,3,Vermont,1,0,Hockey East
+2025-02-22,Merrimack,0,Providence,4,0,Hockey East
+2025-02-22,Connecticut,3,Boston University,1,0,Hockey East
+2025-02-22,Boston College,1,New Hampshire,1,1,Hockey East
+2025-02-22,Holy Cross,2,Maine,2,1,Hockey East
+2025-02-22,Minnesota-Duluth,0,Minnesota,1,0,WCHA
+2025-02-22,Wisconsin,6,Bemidji State,1,0,WCHA
+2025-02-22,St. Cloud State,2,Ohio State,3,0,WCHA
+2025-02-22,Minnesota State,3,St. Thomas,0,0,WCHA
+2025-02-22,Harvard,0,Quinnipiac,2,0,Non-Conference
+2025-02-22,Union,2,Brown,0,0,Non-Conference
+2025-02-22,Dartmouth,1,Yale,4,0,Non-Conference
+2025-02-22,Robert Morris,2,Syracuse,3,0,Non-Conference
+2025-02-22,Lindenwood,0,RIT,4,0,Non-Conference
 2025-02-26,Holy Cross,,Vermont,,0,Non-Conference
-2025-03-01,Northeastern,,Providence,,0,Non-Conference
+2025-02-26,Merrimack,,New Hampshire,,0,Non-Conference
+2025-02-28,St. Cloud State,,Minnesota-Duluth,,0,Non-Conference
+2025-02-28,Yale,,St. Lawrence,,0,Non-Conference
+2025-02-28,Quinnipiac,,Clarkson,,0,Non-Conference
+2025-02-28,Minnesota State,,Minnesota,,0,Non-Conference
+2025-02-28,St. Thomas,,Ohio State,,0,Non-Conference
+2025-02-28,Princeton,,Colgate,,0,Non-Conference
+2025-02-28,Union,,Cornell,,0,Non-Conference
+2025-02-28,Bemidji State,,Wisconsin,,0,Non-Conference
+2025-03-01,St. Cloud State,,Minnesota-Duluth,,0,Non-Conference
+2025-03-01,Minnesota State,,Minnesota,,0,Non-Conference
+2025-03-01,Quinnipiac,,Clarkson,,0,Non-Conference
+2025-03-01,Yale,,St. Lawrence,,0,Non-Conference
+2025-03-01,St. Thomas,,Ohio State,,0,Non-Conference
+2025-03-01,Bemidji State,,Wisconsin,,0,Non-Conference
+2025-03-01,Union,,Cornell,,0,Non-Conference
 2025-03-01,Maine,,Boston College,,0,Non-Conference
+2025-03-01,Princeton,,Colgate,,0,Non-Conference
+2025-03-01,Northeastern,,Providence,,0,Non-Conference
+2025-03-02,St. Cloud State,,Minnesota-Duluth,,0,Non-Conference
+2025-03-02,Bemidji State,,Wisconsin,,0,Non-Conference
+2025-03-02,Quinnipiac,,Clarkson,,0,Non-Conference
+2025-03-02,Yale,,St. Lawrence,,0,Non-Conference
+2025-03-02,Minnesota State,,Minnesota,,0,Non-Conference
+2025-03-02,St. Thomas,,Ohio State,,0,Non-Conference
+2025-03-02,Princeton,,Colgate,,0,Non-Conference
+2025-03-02,Union,,Cornell,,0,Non-Conference
