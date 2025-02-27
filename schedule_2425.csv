@@ -735,8 +735,8 @@ Date,Visitor,Visitor_Score,Home,Home_Score,OT,Division
 2025-02-22,Dartmouth,1,Yale,4,0,Non-Conference
 2025-02-22,Robert Morris,2,Syracuse,3,0,Non-Conference
 2025-02-22,Lindenwood,0,RIT,4,0,Non-Conference
-2025-02-26,Holy Cross,,Vermont,,0,Non-Conference
-2025-02-26,Merrimack,,New Hampshire,,0,Non-Conference
+2025-02-26,Holy Cross,2,Vermont,3,1,Non-Conference
+2025-02-26,Merrimack,3,New Hampshire,1,0,Non-Conference
 2025-02-28,Saint Michael's,,Long Island,,0,Non-Conference
 2025-02-28,St. Cloud State,,Minnesota-Duluth,,0,Non-Conference
 2025-02-28,Yale,,St. Lawrence,,0,Non-Conference
@@ -762,6 +762,8 @@ Date,Visitor,Visitor_Score,Home,Home_Score,OT,Division
 2025-03-01,St. Thomas,,Ohio State,,0,Non-Conference
 2025-03-01,Bemidji State,,Wisconsin,,0,Non-Conference
 2025-03-01,Union,,Cornell,,0,Non-Conference
+2025-03-01,Vermont,,Boston University,,0,Non-Conference
+2025-03-01,Merrimack,,Connecticut,,0,Non-Conference
 2025-03-01,Maine,,Boston College,,0,Non-Conference
 2025-03-01,Princeton,,Colgate,,0,Non-Conference
 2025-03-01,Saint Anselm,,Stonehill,,0,Non-Conference
