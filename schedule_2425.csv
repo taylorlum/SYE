@@ -751,35 +751,27 @@ Date,Visitor,Visitor_Score,Home,Home_Score,OT,Division
 2025-02-28,Union,0,Cornell,3,0,Non-Conference
 2025-02-28,Assumption,0,Sacred Heart,1,0,Non-Conference
 2025-02-28,Bemidji State,0,Wisconsin,3,0,Non-Conference
-2025-03-01,St. Cloud State,,Minnesota-Duluth,,0,Non-Conference
-2025-03-01,Assumption,,Sacred Heart,,0,Non-Conference
-2025-03-01,Saint Michael's,,Long Island,,0,Non-Conference
-2025-03-01,Minnesota State,,Minnesota,,0,Non-Conference
-2025-03-01,Quinnipiac,,Clarkson,,0,Non-Conference
-2025-03-01,Yale,,St. Lawrence,,0,Non-Conference
-2025-03-01,Syracuse,,Mercyhurst,,0,Non-Conference
-2025-03-01,RIT,,Penn State,,0,Non-Conference
-2025-03-01,St. Thomas,,Ohio State,,0,Non-Conference
-2025-03-01,Bemidji State,,Wisconsin,,0,Non-Conference
-2025-03-01,Union,,Cornell,,0,Non-Conference
-2025-03-01,Vermont,,Boston University,,0,Non-Conference
-2025-03-01,Merrimack,,Connecticut,,0,Non-Conference
-2025-03-01,Maine,,Boston College,,0,Non-Conference
-2025-03-01,Princeton,,Colgate,,0,Non-Conference
-2025-03-01,Saint Anselm,,Stonehill,,0,Non-Conference
-2025-03-01,Northeastern,,Providence,,0,Non-Conference
-2025-03-01,Post,,Franklin Pierce,,0,Non-Conference
-2025-03-02,St. Cloud State,,Minnesota-Duluth,,0,Non-Conference
-2025-03-02,Assumption,,Sacred Heart,,0,Non-Conference
-2025-03-02,Saint Michael's,,Long Island,,0,Non-Conference
-2025-03-02,Bemidji State,,Wisconsin,,0,Non-Conference
+2025-03-01,St. Cloud State,1,Minnesota-Duluth,2,0,Non-Conference
+2025-03-01,Assumption,2,Sacred Heart,6,0,Non-Conference
+2025-03-01,Saint Michael's,0,Long Island,2,0,Non-Conference
+2025-03-01,Minnesota State,5,Minnesota,4,0,Non-Conference
+2025-03-01,Quinnipiac,1,Clarkson,2,0,Non-Conference
+2025-03-01,Yale,3,St. Lawrence,4,0,Non-Conference
+2025-03-01,Syracuse,0,Mercyhurst,4,0,Non-Conference
+2025-03-01,RIT,0,Penn State,4,0,Non-Conference
+2025-03-01,St. Thomas,1,Ohio State,4,0,Non-Conference
+2025-03-01,Bemidji State,0,Wisconsin,11,0,Non-Conference
+2025-03-01,Union,2,Cornell,3,0,Non-Conference
+2025-03-01,Vermont,3,Boston University,4,1,Non-Conference
+2025-03-01,Merrimack,0,Connecticut,4,0,Non-Conference
+2025-03-01,Maine,3,Boston College,4,0,Non-Conference
+2025-03-01,Princeton,1,Colgate,2,0,Non-Conference
+2025-03-01,Saint Anselm,4,Stonehill,3,0,Non-Conference
+2025-03-01,Northeastern,3,Providence,2,0,Non-Conference
+2025-03-01,Post,1,Franklin Pierce,0,0,Non-Conference
 2025-03-02,Quinnipiac,,Clarkson,,0,Non-Conference
-2025-03-02,Yale,,St. Lawrence,,0,Non-Conference
 2025-03-02,Syracuse,,Mercyhurst,,0,Non-Conference
-2025-03-02,RIT,,Penn State,,0,Non-Conference
 2025-03-02,Minnesota State,,Minnesota,,0,Non-Conference
-2025-03-02,St. Thomas,,Ohio State,,0,Non-Conference
-2025-03-02,Princeton,,Colgate,,0,Non-Conference
-2025-03-02,Union,,Cornell,,0,Non-Conference
 2025-03-02,Saint Anselm,,Stonehill,,0,Non-Conference
-2025-03-02,Post,,Franklin Pierce,,0,Non-Conference
+2025-03-05,Boston College,,Boston University,,0,Non-Conference
+2025-03-05,Northeastern,,Connecticut,,0,Non-Conference
