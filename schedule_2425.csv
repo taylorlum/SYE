@@ -781,8 +781,11 @@ Date,Visitor,Visitor_Score,Home,Home_Score,OT,Division
 2025-03-07,Clarkson,1,Cornell,2,0,Non-Conference
 2025-03-07,Minnesota,6,Ohio State,2,0,Non-Conference
 2025-03-07,St. Lawrence,2,Colgate,4,0,Non-Conference
-2025-03-08,Northeastern,,Boston University,,0,Non-Conference
-2025-03-08,Minnesota,,Wisconsin,,0,Non-Conference
-2025-03-08,Mercyhurst,,Penn State,,0,Non-Conference
-2025-03-08,Colgate,,Cornell,,0,Non-Conference
-2025-03-08,Sacred Heart,,Long Island,,0,Non-Conference
+2025-03-08,Northeastern,2,Boston University,3,1,Non-Conference
+2025-03-08,Minnesota,3,Wisconsin,4,0,Non-Conference
+2025-03-08,Mercyhurst,1,Penn State,4,0,Non-Conference
+2025-03-08,Colgate,1,Cornell,5,0,Non-Conference
+2025-03-08,Sacred Heart,4,Long Island,2,0,Non-Conference
+2025-03-13,Boston University,,Clarkson,,0,Non-Conference
+2025-03-15,Colgate,,Minnesota,,0,Non-Conference
+2025-03-15,TBD,,Wisconsin,,0,Non-Conference
