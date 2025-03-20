@@ -26,7 +26,7 @@ jobs:
         run: pip install pandas numpy requests pyreadr rpy2
 
       - name: Run Python script
-        run: python script.py
+        run: python result.py
 
       - name: Commit and push changes
         run: |
