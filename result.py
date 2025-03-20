@@ -1,59 +1,68 @@
-import pandas as pd
-import numpy as np
-import requests
-import pyreadr
 import rpy2.robjects as ro
-from rpy2.robjects import pandas2ri
+import pandas as pd
+import requests
 
-# Enable conversion between R and Pandas
-pandas2ri.activate()
+# Function to download the .rds model file from GitHub
+def download_rds_file(url, save_path):
+    response = requests.get(url)
+    with open(save_path, 'wb') as f:
+        f.write(response.content)
 
-# Load RDS Model from GitHub
-tie_reg_url = "https://raw.githubusercontent.com/taylorlum/SYE/main/tie_reg.rds"
+# Download the RDS file for the logistic regression model
+rds_url = "https://raw.githubusercontent.com/taylorlum/SYE/main/tie_reg.rds"
 rds_path = "tie_reg.rds"
+download_rds_file(rds_url, rds_path)
 
-# Download the RDS file
-response = requests.get(tie_reg_url)
-with open(rds_path, "wb") as f:
-    f.write(response.content)
+# Load the RDS file using rpy2
+ro.r['load'](rds_path)
 
-# Read the RDS model
-r_model = pyreadr.read_r(rds_path)  # This gives a dictionary-like object
-tie_reg = r_model[None]  # Extract model object
+# Assuming the RDS file contains a model named 'tie_reg'
+tie_reg = ro.r['tie_reg']
 
-# Read tie_2324.csv from GitHub
-tie_2324_url = "https://raw.githubusercontent.com/taylorlum/SYE/main/tie_2324.csv"
-tie_2324 = pd.read_csv(tie_2324_url)
+# Load the CSV data from GitHub
+csv_url = "https://raw.githubusercontent.com/taylorlum/SYE/main/tie_2324.csv"
+tie_2324 = pd.read_csv(csv_url)
 
-# Convert Pandas DataFrame to R DataFrame
-tie_2324_r = pandas2ri.py2rpy(tie_2324)
-
-# Predict tie probability using the R model
-ro.globalenv["tie_reg"] = tie_reg
-ro.globalenv["tie_2324_r"] = tie_2324_r
-ro.r('tie_2324_r$Tie_Prob <- predict(tie_reg, newdata = tie_2324_r, type = "response")')
-
-# Convert back to Pandas DataFrame
-tie_2324_pred = pandas2ri.rpy2py(ro.globalenv["tie_2324_r"])
-
-# Elo probability function in Python
+# Function to calculate probabilities based on Elo
 def logistic_elo_probs(home_elo, away_elo):
+    # Adjust Elo for home advantage
     home_adjusted_elo = home_elo + 15
     elo_diff = away_elo - home_adjusted_elo
-    prob_home_win = 1 / (1 + 10**(elo_diff / 400))
+    
+    # Calculate probabilities
+    prob_home_win = 1 / (1 + 10 ** (elo_diff / 400))
     prob_away_win = 1 - prob_home_win
-    return prob_home_win, prob_away_win
+    
+    # Predict tie probabilities using the loaded R model
+    tie_prob = tie_reg.rx2('predict')(ro.r['data.frame']({'Elo_Diff': abs(elo_diff)}), type="response")[0]
+    
+    # Return probabilities
+    return {
+        'home_win_prob': prob_home_win - (tie_prob / 2),
+        'away_win_prob': prob_away_win - (tie_prob / 2),
+        'tie_prob': tie_prob
+    }
 
-# Compute probabilities
-tie_2324_pred["home_win_prob"] = np.nan
-tie_2324_pred["visitor_win_prob"] = np.nan
+# Create a new column for the tie probabilities
+tie_2324['Tie_Prob'] = tie_reg.rx2('predict')(ro.r['data.frame'](tie_2324), type="response")
 
-for index, row in tie_2324_pred.iterrows():
-    home_prob, away_prob = logistic_elo_probs(row["Home_Elo_Before"], row["Visitor_Elo_Before"])
-    tie_prob = row["Tie_Prob"] / 2
-    tie_2324_pred.at[index, "home_win_prob"] = home_prob - tie_prob
-    tie_2324_pred.at[index, "visitor_win_prob"] = away_prob - tie_prob
+# Select relevant columns from the dataframe
+sched_2324_diff = tie_2324[['Home_Elo_Before', 'Visitor_Elo_Before', 'Tie_Prob']]
 
-# Save final output as CSV
-output_path = "data/sched_2324_diff.csv"
-tie_2324_pred.to_csv(output_path, index=False)
+# Initialize new probability columns
+sched_2324_diff['home_win_prob'] = None
+sched_2324_diff['visitor_win_prob'] = None
+sched_2324_diff['tie_prob'] = None
+
+# Compute probabilities row by row
+for idx, row in sched_2324_diff.iterrows():
+    probs = logistic_elo_probs(
+        row['Home_Elo_Before'], row['Visitor_Elo_Before']
+    )
+    sched_2324_diff.at[idx, 'home_win_prob'] = probs['home_win_prob']
+    sched_2324_diff.at[idx, 'visitor_win_prob'] = probs['away_win_prob']
+    sched_2324_diff.at[idx, 'tie_prob'] = probs['tie_prob']
+
+# Save the final output to a CSV file
+output_path = "sched_2324_diff.csv"
+sched_2324_diff.to_csv(output_path, index=False)
