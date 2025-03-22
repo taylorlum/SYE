@@ -793,5 +793,6 @@ Date,Visitor,Visitor_Score,Home,Home_Score,OT,Division
 2025-03-15,Clarkson,1,Wisconsin,4,0,Non-Conference
 2025-03-15,Minnesota-Duluth,0,Cornell,1,0,Non-Conference
 2025-03-15,St. Lawrence,1,Ohio State,6,0,Non-Conference
-2025-03-21,Cornell,,Ohio State,,0,Non-Conference
-2025-03-21,Wisconsin,,Minnesota,,0,Non-Conference
+2025-03-21,Cornell,2,Ohio State,4,0,Non-Conference
+2025-03-21,Wisconsin,6,Minnesota,2,0,Non-Conference
+2025-03-23,Ohio State,,Wisconsin,,0,Non-Conference
